@@ -1,5 +1,5 @@
 import { Form, Input, Button, Typography, Flex, Layout, message } from 'antd'
-import HeaderComp from '../components/MainHeader'
+import HeaderComp from '../widgets/MainHeader'
 import { useNavigate } from 'react-router-dom'
 import bcrypt from 'bcryptjs'
 

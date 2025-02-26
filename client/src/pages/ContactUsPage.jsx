@@ -1,6 +1,6 @@
 import { Form, Input, Button, Typography, Layout, notification } from 'antd'
 import Images from '../Images'
-import HeaderComp from '../components/MainHeader'
+import HeaderComp from '../widgets/MainHeader'
 import axios from 'axios'
 
 const { Title, Text } = Typography

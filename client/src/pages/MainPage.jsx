@@ -11,7 +11,7 @@ import {
 	Image,
 } from 'antd'
 import 'antd/dist/reset.css'
-import HeaderComp from '../components/MainHeader'
+import HeaderComp from '../widgets/MainHeader'
 import Images from '../Images'
 import { useNavigate } from 'react-router-dom'
 
