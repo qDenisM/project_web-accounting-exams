@@ -9,9 +9,9 @@ import {
 	FileTextOutlined,
 	LogoutOutlined,
 } from '@ant-design/icons'
-import Schedule from '../components/Schedule'
-import Universities from '../components/Universities'
-import Exams from '../components/Exams'
+import Schedule from '../features/schedule/Schedule'
+import Universities from '../features/universities/Universities'
+import Exams from '../features/exams/Exams'
 import ApplicationForm from '../features/application/components/ApplicationForm'
 
 const { Sider, Content, Header } = Layout

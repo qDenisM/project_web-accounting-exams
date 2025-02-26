@@ -2,7 +2,7 @@ import { Table, Typography, Upload, Button, message } from 'antd'
 import { UploadOutlined } from '@ant-design/icons'
 import Tesseract from 'tesseract.js'
 import { useDispatch, useSelector } from 'react-redux'
-import { updateScores, calculateTotalScore } from '../redux/slices/examSlice'
+import { updateScores, calculateTotalScore } from '../../redux/slices/examSlice'
 
 const { Title } = Typography
 

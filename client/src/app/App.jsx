@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import 'antd/dist/reset.css'
-import MainPage from './pages/MainPage'
-import ContactUsPage from './pages/ContactUsPage'
-import RegisterPage from './pages/RegisterPage'
-import LoginPage from './pages/LoginPage'
-import DashBoardPage from './pages/DashBoardPage'
-import Loading from './components/Loading'
+import MainPage from '../pages/MainPage'
+import ContactUsPage from '../pages/ContactUsPage'
+import RegisterPage from '../pages/RegisterPage'
+import LoginPage from '../pages/LoginPage'
+import DashBoardPage from '../pages/DashBoardPage'
+import Loading from '../entities/loading/ui/Loading'
 import { useState, useEffect } from 'react'
 
 export default function App() {
